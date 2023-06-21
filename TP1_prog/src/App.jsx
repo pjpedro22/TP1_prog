@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Card from './components/Card'
+import Deck from './components/Deck'
 import './App.css'
 
 function App() {
@@ -13,16 +13,7 @@ function App() {
 
   return (
     <div>
-      <Card name={'Pikachu'} img={'/images/Pikachu.png'}/>
-      <Card name={'Bulbasaur'} img={'/images/Bulbasaur.png'}/>
-      <Card name={'Charmander'} img={'/images/Charmander.png'}/>
-      <Card name={'Squirtle'} img={'/images/Squirtle.png'}/>
-      <Card name={'Caterpie'} img={'/images/Caterpie.png'}/>
-      <Card name={'Butterfree'} img={'/images/Butterfree.png'}/>
-      <Card name={'Weedle'} img={'/images/Weedle.png'}/>
-      <Card name={'Pidgey'} img={'/images/Pidgey.png'}/>
-      <Card name={'Rattata'} img={'/images/Rattata.png'}/>
-      <Card name={'Spearow'} img={'/images/Spearow.png'}/>
+      <Deck />
     </div> 
   )
 }

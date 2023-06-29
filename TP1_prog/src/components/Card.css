@@ -1,18 +1,29 @@
 .card {
-  background-color: red;
-  width: 20rem;
-  padding: 2rem;
-  margin: 2rem;
+  background-color: white;
+  width: 11rem;
+  height: 14rem;
+  padding: 1rem;
+  margin: 1rem;
   text-align: center;
-  border: 2px solid purple;
   border-radius: 10px;
+}
+
+.card-title {
+  max-width: fit-content;
+  background-color: white;
 }
 
 .abilities {
   max-height: 0;
   overflow: hidden;
+  background-color: white;
 }
 
 .card.active .abilities {
   max-height: 100%;
+}
+
+.card_img {
+  width: 9rem;
+  background-color: white;
 }

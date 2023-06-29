@@ -18,8 +18,8 @@ const Card = (props) => {
 
   return (
     <div className={classnames.join(" ")} onMouseEnter={expandCard} onMouseLeave={collapseCard}>
-      <h1>{props.name}</h1>
-      <img src={props.img} alt={props.name} />
+      <h1 className='card-title'>{props.name}</h1>
+      <img className='card_img' src={props.img} alt={props.name} />
       <div className="abilities">{props.children}</div>
     </div>
   )

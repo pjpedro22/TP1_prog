@@ -1,4 +1,9 @@
-.Deck {
+.deck-top {
   display: flex;
-  flex-wrap: wrap;
+  margin: 0;
+}
+
+.deck-bottom{
+  margin: 0;
+  display: flex;
 }

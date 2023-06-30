@@ -1,0 +1,9 @@
+.deck-top {
+  display: flex;
+  margin: 0;
+}
+
+.deck-bottom{
+  margin: 0;
+  display: flex;
+}

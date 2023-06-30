@@ -1,0 +1,29 @@
+.card {
+  background-color: white;
+  width: 11rem;
+  height: 14rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-title {
+  max-width: fit-content;
+  background-color: white;
+}
+
+.abilities {
+  max-height: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.card.active .abilities {
+  max-height: 100%;
+}
+
+.card_img {
+  width: 9rem;
+  background-color: white;
+}
